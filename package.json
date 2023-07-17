@@ -1,7 +1,9 @@
   {
-    "name": "my-package",
-    "scripts": {
-      "build": "babel src -d lib",
-      "test": "jest"
-    }
+  "name": "my-package",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel src -d lib",
+    "test": "jest"
   }
+}
+
