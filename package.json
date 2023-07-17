@@ -1,9 +1,15 @@
-  {
+{
   "name": "my-package",
+  "version": "1.0.0",
   "license": "MIT",
   "scripts": {
-    "build": "babel src -d lib",
+    "build":  "node_modules/.bin/babel src -d lib --verbose",
     "test": "jest"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "jest": "^27.0.0"
   }
 }
 
